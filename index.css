@@ -1,0 +1,31 @@
+.serverImg {
+  position:absolute;
+  bottom: 40px;         /* 距离底部 30px */
+  right: 30px;  
+  background-size: 100% auto;
+  filter: blur(2px);        /* 模糊半径，数值越大越模糊 */
+  width: 105%;              /* 按需设置尺寸 */
+  height:auto;
+}
+.serverImg.neiron{
+  height: 200px;
+  width: 400px;
+  float: left;
+}
+.white-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 900px;
+  height: 500px;
+  background: white;
+  border-radius: 16px;          /*圆角调整，越大越圆*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* 可选阴影增加层次感 */
+  font-size: 14px;
+  color: #333;
+  background: rgba(255, 255, 255, 0.7);
+}
